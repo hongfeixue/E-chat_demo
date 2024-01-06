@@ -4,31 +4,54 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-
-  <!-- Begin Jekyll SEO tag v2.7.1 -->
   <title>E-chat</title>
-  <meta name="generator" content="Jekyll v3.9.0">
-  <meta property="og:title" content="title">
-  <meta property="og:locale" content="en_US">
-  <meta name="twitter:card" content="summary">
-  <!-- End Jekyll SEO tag -->
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#157878">
   <link rel="stylesheet" href="style.css">
-  <style>
-        .method {
-            display: inline-block;
-/*             width: 120px; /* Adjust the width as needed */ */
-            font-weight: bold;
-        }
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
 
-        .explanation {
-            display: inline-block;
-/*             margin-left: 20px; /* Adjust the margin as needed */ */
-        }
-    </style>
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      color: #333;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .page-header, .main-content {
+      max-width: 960px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    h1, h2, h3 {
+      color: #157878;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #157878;
+      color: white;
+    }
+
+    audio {
+      width: 100%;
+      max-width: 300px;
+    }
+  </style>
 </head>
 
 <body data-new-gr-c-s-check-loaded="14.1001.0" data-gr-ext-installed="">
@@ -45,14 +68,14 @@
     </h1>
 
     <h3 id="">
-      <center>A work submitted to ICME2024</center>
-<!--       <center>Dake Guo<sup>1</sup>, Xinfa Zhu<sup>1</sup>, Liumeng Xue<sup>2</sup>, Tao Li<sup>1</sup>, Yuanjun Lv<sup>1</sup>, Yuepeng Jiang<sup>1</sup>, Lei Xie<sup>1</sup></center> 
+      <!-- <center>A work submitted to ICME2024</center> -->
+      <center>Hongfei Xue<sup>1</sup>, Yuhao Liang<sup>1</sup>, Binshen Mu<sup>1</sup>, Shiliang Zhang<sup>2</sup>, Mengzhe Chen<sup>2</sup>, Qian Chen<sup>2</sup>, Lei Xie<sup>1</sup></center> 
       <center><sup>1</sup>Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University, Xi'an, China </center>
-      <center><sup>2</sup>School of Data Science, The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen), China </center> -->
+      <center><sup>2</sup>Alibaba Group, China </center>
     </h3>
     <!-- <center>Accepted by ASRU 2023</center> -->
 
-    <p>Note that the emotion of stage-2 in Fig.2 should be "sad" instead of "cheerful", which is a clerical error.</p>
+    <!-- <p>Note that the emotion of stage-2 in Fig.2 should be "sad" instead of "cheerful", which is a clerical error.</p> -->
     <br><br>
     <h2 id="abstract">1. Abstract<a name="abstract"></a></h2>
     <p>This study focuses on emotion-sensitive spoken dialogue in human-machine speech interaction. With the advancement of Large Language Models (LLMs), dialogue systems can handle multimodal data, including audio. Recent models have enhanced the understanding of complex audio signals through the integration of various audio events. However, they are unable to generate appropriate responses based on emotional speech. To address this, we introduce the Emotional chat Model (E-chat), a novel spoken dialogue system capable of comprehending and responding to emotions conveyed from speech. This model leverages an emotion embedding extracted by a speech encoder, combined with LLMs, enabling it to respond according to different emotional contexts. Additionally, we introduce the E-chat200 dataset, designed explicitly for emotion-sensitive spoken dialogue. In various evaluation metrics, E-chat consistently outperforms baseline LLMs, demonstrating its potential in emotional comprehension and human-machine interaction.</p>
@@ -150,6 +173,6 @@
     </tbody>
     </table>
     
-  <h3>References:</h3>
+  <!-- <h3>References:</h3> -->
 
 </html>
